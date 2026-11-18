@@ -1,0 +1,23 @@
+{
+  "name": "fullstackjs-104-solutions",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:01": "vitest run 01-server-testing",
+    "test:02": "vitest run 02-dom-mocking",
+    "test:03": "vitest run 03-tdd-tictactoe",
+    "dev": "node --watch 03-tdd-tictactoe/src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "chai-http": "^4.4.0",
+    "jsdom": "^25.0.1",
+    "vitest": "^2.1.9"
+  }
+}
+

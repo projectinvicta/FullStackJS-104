@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TDD Tic-Tac-Toe • FullStackJS-104</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <span class="badge">JavaScript HTX • FullStackJS-104</span>
+      <h1>Tic-Tac-Toe Engine</h1>
+      <p id="status" class="status">Waiting to start</p>
+    </header>
+
+    <section class="controls">
+      <button id="pvp-btn" class="btn primary">Start 2-Player PvP</button>
+      <button id="vs-computer-btn" class="btn accent">Play Against Computer</button>
+      <button id="reset-btn" class="btn subtle">Reset</button>
+    </section>
+
+    <section id="players-banner" class="players-banner"></section>
+
+    <section id="grid" class="grid" aria-label="Tic-Tac-Toe Board">
+      <button class="cell" data-index="0" aria-label="Cell 0"></button>
+      <button class="cell" data-index="1" aria-label="Cell 1"></button>
+      <button class="cell" data-index="2" aria-label="Cell 2"></button>
+      <button class="cell" data-index="3" aria-label="Cell 3"></button>
+      <button class="cell" data-index="4" aria-label="Cell 4"></button>
+      <button class="cell" data-index="5" aria-label="Cell 5"></button>
+      <button class="cell" data-index="6" aria-label="Cell 6"></button>
+      <button class="cell" data-index="7" aria-label="Cell 7"></button>
+      <button class="cell" data-index="8" aria-label="Cell 8"></button>
+    </section>
+  </main>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "FullStackJS-104: Test-Driven Development (TDD)",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24-bookworm",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Tic-Tac-Toe Express Server",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.autoSave": "afterDelay"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "vitest.explorer"
+      ]
+    }
+  }
+}
+
